@@ -1,1 +1,2 @@
-# SoftUni-Fundamentals
+# SoftUni-Fundamentals 📘
+-------------------------
