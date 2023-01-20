@@ -29,6 +29,7 @@ namespace _03._Word_Synonyms
             {
                 Console.WriteLine($"{item.Key} - {string.Join(", ", item.Value)}");
             }
+
         }
     }
 }

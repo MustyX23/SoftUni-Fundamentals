@@ -7,27 +7,16 @@ namespace _04._Word_Filter
     internal class Program
     {
         static void Main(string[] args)
-        {
-            SortedDictionary<double, int> keyValuePairs = new SortedDictionary<double, int>();
+        {           
+            string[] words = Console.ReadLine().Split(' ').Where(x => x.Length % 2 == 0).ToArray();
 
-            double[] numbers = Console.ReadLine().Split(' ').Select(double.Parse).ToArray();
+            //foreach (var word in words)
+            //{
+            //    Console.WriteLine(word);
+            //}
 
-            foreach (var number in numbers)
-            {
-                if (!keyValuePairs.ContainsKey(number))
-                {
-                    keyValuePairs.Add(number, 1);
-                }
-                else
-                {
-                    keyValuePairs[number]++;
-                }
-            }
+            Console.WriteLine(String.Join(' ', words));
 
-            foreach (var item in keyValuePairs)
-            {
-                Console.WriteLine($"{item.Key} -> {item.Value}");
-            }
         }
     }
 }
