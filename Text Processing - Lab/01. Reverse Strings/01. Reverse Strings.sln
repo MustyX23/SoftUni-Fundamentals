@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Reverse Strings", "01. Reverse Strings.csproj", "{CDB8F497-8726-4463-AA11-0AC59A190FF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Reverse Strings", "01. Reverse Strings.csproj", "{CDB8F497-8726-4463-AA11-0AC59A190FF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Repeat Strings", "..\02. Repeat Strings\02. Repeat Strings.csproj", "{60AE20F6-86BE-463A-9D60-CC5ECAE0142B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Repeat Strings", "..\02. Repeat Strings\02. Repeat Strings.csproj", "{60AE20F6-86BE-463A-9D60-CC5ECAE0142B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Substring", "..\03. Substring\03. Substring.csproj", "{B7603779-F3C7-4C17-BB00-9736A2CA47CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{60AE20F6-86BE-463A-9D60-CC5ECAE0142B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60AE20F6-86BE-463A-9D60-CC5ECAE0142B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60AE20F6-86BE-463A-9D60-CC5ECAE0142B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7603779-F3C7-4C17-BB00-9736A2CA47CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7603779-F3C7-4C17-BB00-9736A2CA47CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7603779-F3C7-4C17-BB00-9736A2CA47CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7603779-F3C7-4C17-BB00-9736A2CA47CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

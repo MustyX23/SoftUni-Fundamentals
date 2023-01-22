@@ -11,14 +11,16 @@ namespace _01._Reverse_Strings
             while (input != "end")
             {
                 string reversed = string.Empty;
+
                 for (int i = input.Length - 1; i >= 0; i--)
                 {
                     reversed += input[i];
                 }
                 Console.WriteLine($"{input} = {reversed}");
+
                 input = Console.ReadLine();
             }
-            
+
         }
     }
 }
