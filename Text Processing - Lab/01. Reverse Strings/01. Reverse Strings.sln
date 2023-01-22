@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Reverse Strings", "01. Reverse Strings.csproj", "{CDB8F497-8726-4463-AA11-0AC59A190FF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Repeat Strings", "..\02. Repeat Strings\02. Repeat Strings.csproj", "{60AE20F6-86BE-463A-9D60-CC5ECAE0142B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDB8F497-8726-4463-AA11-0AC59A190FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB8F497-8726-4463-AA11-0AC59A190FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB8F497-8726-4463-AA11-0AC59A190FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB8F497-8726-4463-AA11-0AC59A190FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60AE20F6-86BE-463A-9D60-CC5ECAE0142B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60AE20F6-86BE-463A-9D60-CC5ECAE0142B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60AE20F6-86BE-463A-9D60-CC5ECAE0142B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60AE20F6-86BE-463A-9D60-CC5ECAE0142B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {159B9764-CA98-488D-BB5B-66EB98E7CA59}
+	EndGlobalSection
+EndGlobal
