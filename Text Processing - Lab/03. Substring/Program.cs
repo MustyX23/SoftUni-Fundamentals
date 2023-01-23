@@ -9,14 +9,11 @@ namespace _03._Substring
             string key = Console.ReadLine();
             string text = Console.ReadLine();
 
-            int index = text.IndexOf(key);
-            while (index != -1)
+            while (text.Contains(key))
             {
-                text = text.Remove(text.IndexOf(key), key.Length);
-                index = text.IndexOf(key);
+                int start = text.IndexOf(key);
+                text = text.Remove(start, key.Length);
             }
-
-            Console.WriteLine(text);
         }
     }
 }
