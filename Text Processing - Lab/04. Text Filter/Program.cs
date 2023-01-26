@@ -7,7 +7,19 @@ namespace _04._Text_Filter
         static void Main(string[] args)
         {
             //Linux, Windows
-            string[] bannedWorks = Console.ReadLine().Split(", ",StringSplitOptions.RemoveEmptyEntries);
+            string[] bannedWords = Console.ReadLine()
+                .Split(", ", StringSplitOptions.RemoveEmptyEntries);
+
+            string text = Console.ReadLine();
+
+            char asteriks = '*';
+
+            foreach (var item in bannedWords)
+            {
+                text = text.Replace(item, new string(asteriks, item.Length));
+            }
+
+            Console.WriteLine(text);
         }
     }
 }

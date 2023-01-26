@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Substring", "..\03. Sub
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Text Filter", "..\04. Text Filter\04. Text Filter.csproj", "{6E118221-CAC1-45AF-9BB3-7124A1FA2A79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00.Demos", "..\00.Demos\00.Demos.csproj", "{9E1E48AE-796C-4063-940F-83B24767C032}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00.Demos", "..\00.Demos\00.Demos.csproj", "{9E1E48AE-796C-4063-940F-83B24767C032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Digits, Letters and Other", "..\05. Digits, Letters and Other\05. Digits, Letters and Other.csproj", "{6F19A60C-B9B9-490C-8EBB-FA1EE22FCC92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9E1E48AE-796C-4063-940F-83B24767C032}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E1E48AE-796C-4063-940F-83B24767C032}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E1E48AE-796C-4063-940F-83B24767C032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F19A60C-B9B9-490C-8EBB-FA1EE22FCC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F19A60C-B9B9-490C-8EBB-FA1EE22FCC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F19A60C-B9B9-490C-8EBB-FA1EE22FCC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F19A60C-B9B9-490C-8EBB-FA1EE22FCC92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
