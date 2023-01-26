@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace _04._Text_Filter
 {
