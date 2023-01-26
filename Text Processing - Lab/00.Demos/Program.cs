@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace _00.Demos
 {
@@ -6,26 +7,35 @@ namespace _00.Demos
     {
         static void Main(string[] args)
         {
-            //Reversing a String using a char[] and reversing with Array class
-            string firstInput = "Hello";
+            //Using StringBuilder Class:
 
-            char[]firstString = firstInput.ToCharArray();
+            string input = Console.ReadLine();
 
-            Array.Reverse(firstString);
+            StringBuilder digits = new StringBuilder();
+            var letters = new StringBuilder();
+            var characters = new StringBuilder();
 
-            Console.WriteLine($"{firstInput} -> {new string (firstString)}");
-
-            Console.WriteLine("--------------");
-
-            string secondInput = "Hello";
-            string reversed = string.Empty;
-
-            for (int i = secondInput.Length - 1; i >= 0; i--)
+            for (int i = 0; i < input.Length; i++)
             {
-                reversed += secondInput[i];
+                char c = input[i];
+                if (Char.IsDigit(c))
+                {
+                    digits.Append(c);
+                }
+                else if (Char.IsLetter(c))
+                {
+                    letters.Append(c);
+                }
+                else
+                {
+                    characters.Append(c);
+                }
             }
 
-            Console.WriteLine($"{secondInput} -> {reversed}");
+            Console.WriteLine(digits);
+            Console.WriteLine(letters);
+            Console.WriteLine(characters);
+
         }
     }
 }

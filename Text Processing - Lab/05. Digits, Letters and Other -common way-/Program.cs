@@ -6,6 +6,8 @@ namespace _05._Digits__Letters_and_Other__common_way_
     {
         static void Main(string[] args)
         {
+            //This is the more common way which string concat is used:
+
             string text = Console.ReadLine();
 
             string digits = string.Empty;
