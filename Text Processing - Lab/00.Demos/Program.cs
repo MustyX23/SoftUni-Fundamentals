@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Text;
 
 namespace _00.Demos
@@ -9,7 +10,13 @@ namespace _00.Demos
         {
             //Using StringBuilder Class:
 
-            string input = Console.ReadLine();
+            //If we use a StopWatch we can see that the code is more
+            //optimised when we use StringBuilder
+
+            Stopwatch stopwatch = Stopwatch.StartNew();
+            stopwatch.Start();
+
+            string input = "Agd#53Dfg^&4F53";
 
             StringBuilder digits = new StringBuilder();
             var letters = new StringBuilder();
@@ -36,6 +43,9 @@ namespace _00.Demos
             Console.WriteLine(letters);
             Console.WriteLine(characters);
 
+            stopwatch.Stop();
+
+            Console.WriteLine(stopwatch.ElapsedMilliseconds);
         }
     }
 }
