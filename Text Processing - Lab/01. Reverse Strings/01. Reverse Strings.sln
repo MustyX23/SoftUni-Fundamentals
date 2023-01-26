@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00.Demos", "..\00.Demos\00.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Digits, Letters and Other", "..\05. Digits, Letters and Other\05. Digits, Letters and Other.csproj", "{6F19A60C-B9B9-490C-8EBB-FA1EE22FCC92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Digits, Letters and Other -common way-", "..\05. Digits, Letters and Other -common way-\05. Digits, Letters and Other -common way-.csproj", "{57B05849-D2D0-4D3A-9374-9C0832BE1469}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{6F19A60C-B9B9-490C-8EBB-FA1EE22FCC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F19A60C-B9B9-490C-8EBB-FA1EE22FCC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F19A60C-B9B9-490C-8EBB-FA1EE22FCC92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B05849-D2D0-4D3A-9374-9C0832BE1469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B05849-D2D0-4D3A-9374-9C0832BE1469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B05849-D2D0-4D3A-9374-9C0832BE1469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B05849-D2D0-4D3A-9374-9C0832BE1469}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
