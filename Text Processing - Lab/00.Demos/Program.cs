@@ -13,10 +13,12 @@ namespace _00.Demos
             //If we use a StopWatch we can see that the code is more
             //optimised when we use StringBuilder
 
-            Stopwatch stopwatch = Stopwatch.StartNew();
-            stopwatch.Start();
+            //Stopwatch stopwatch = Stopwatch.StartNew();
+            //stopwatch.Start();
 
-            string input = "Agd#53Dfg^&4F53";
+            //string input = "Agd#53Dfg^&4F53";
+
+            string input = Console.ReadLine();
 
             StringBuilder digits = new StringBuilder();
             var letters = new StringBuilder();
@@ -43,9 +45,9 @@ namespace _00.Demos
             Console.WriteLine(letters);
             Console.WriteLine(characters);
 
-            stopwatch.Stop();
+            //stopwatch.Stop();
 
-            Console.WriteLine(stopwatch.ElapsedMilliseconds);
+            //Console.WriteLine(stopwatch.ElapsedMilliseconds); -> //4 Milliseconds
         }
     }
 }
