@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Strong number", "..\06.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Vending Machine", "..\07. Vending Machine\07. Vending Machine.csproj", "{FC1B3AB1-1163-41FF-A3F7-80C0B086CF48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Triangle of Numbers", "..\08. Triangle of Numbers\08. Triangle of Numbers.csproj", "{73DB8BE8-B47D-40C7-BE85-67F72AAB8C70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{FC1B3AB1-1163-41FF-A3F7-80C0B086CF48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC1B3AB1-1163-41FF-A3F7-80C0B086CF48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC1B3AB1-1163-41FF-A3F7-80C0B086CF48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73DB8BE8-B47D-40C7-BE85-67F72AAB8C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73DB8BE8-B47D-40C7-BE85-67F72AAB8C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73DB8BE8-B47D-40C7-BE85-67F72AAB8C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73DB8BE8-B47D-40C7-BE85-67F72AAB8C70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
