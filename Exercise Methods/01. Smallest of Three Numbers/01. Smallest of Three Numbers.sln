@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Smallest of Three Numbers", "01. Smallest of Three Numbers.csproj", "{DD0DF718-A63D-4ACC-B096-9B2B198BB0C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Vowels Count", "..\02. Vowels Count\02. Vowels Count.csproj", "{54E544D1-F5E9-401C-A363-4E427A2C7BF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Characters in Range", "..\03. Characters in Range\03. Characters in Range.csproj", "{EED783EE-48D0-4363-B2A6-1ECFD0B5B2FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{DD0DF718-A63D-4ACC-B096-9B2B198BB0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD0DF718-A63D-4ACC-B096-9B2B198BB0C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD0DF718-A63D-4ACC-B096-9B2B198BB0C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E544D1-F5E9-401C-A363-4E427A2C7BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E544D1-F5E9-401C-A363-4E427A2C7BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E544D1-F5E9-401C-A363-4E427A2C7BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E544D1-F5E9-401C-A363-4E427A2C7BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EED783EE-48D0-4363-B2A6-1ECFD0B5B2FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED783EE-48D0-4363-B2A6-1ECFD0B5B2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED783EE-48D0-4363-B2A6-1ECFD0B5B2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED783EE-48D0-4363-B2A6-1ECFD0B5B2FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
