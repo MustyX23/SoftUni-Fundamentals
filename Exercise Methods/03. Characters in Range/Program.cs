@@ -25,7 +25,7 @@ namespace _03._Characters_in_Range
             {
                 Console.Write($"{(char)i} ");
             }
-            
+
         }
     }
 }
