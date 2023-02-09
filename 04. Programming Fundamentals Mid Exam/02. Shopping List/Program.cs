@@ -20,63 +20,83 @@ namespace _02._Shopping_List
                 if (action == "Urgent")
                 {
                     string item = command[1];
-                    if (list.Contains(item))
-                    {
-                        continue;
-                    }
-                    else
-                    {
-                        list.Insert(0, item);
-                    }
+                    Urgent(list, item);
                 }
                 else if (action == "Unnecessary")
                 {
                     string item = command[1];
-                    if (list.Contains(item))
-                    {
-                        list.Remove(item);
-                    }
-                    else
-                    {
-                        continue;
-                    }
+                    Unnecessary(list, item);                   
                 }
                 else if (action == "Correct")
                 {
                     string oldItem = command[1];
                     string newItem = command[2];
-
-                    if (list.Contains(oldItem))
-                    {
-                        int index = list.FindIndex(i => i == oldItem);
-                        if (index != -1)
-                        {
-                            list.RemoveAt(index);
-                            list.Insert(index, newItem);
-                        }
-                        else
-                        {
-                            continue;
-                        }
-                    }                    
+                    Correct(list, oldItem, newItem);
                 }
                 else if (action == "Rearrange")
                 {
                     string item = command[1];
-                    if (list.Contains(item))
-                    {
-                        list.Remove(item);
-                        list.Add(item);
-                    }
-                    else
-                    {
-                        continue;
-                    }
+                    Rearrange(list, item);
                 }
             }
 
-            Console.WriteLine(String.Join(", ", list));
+            Print(list);
 
         }
+        static void Urgent(List<string> list, string item)
+        {
+            if (list.Contains(item))
+            {
+                return;
+            }
+            else
+            {
+                list.Insert(0, item);
+            }
+        }
+        static void Unnecessary(List<string> list, string item)
+        {
+            if (list.Contains(item))
+            {
+                list.Remove(item);
+            }
+            else
+            {
+                return;
+            }
+        }
+        static void Correct(List<string> list, string oldItem, string newItem)
+        {
+            if (list.Contains(oldItem))
+            {
+                int index = list.FindIndex(i => i == oldItem);
+                if (index != -1)
+                {
+                    list.RemoveAt(index);
+                    list.Insert(index, newItem);
+                }
+                else
+                {
+                    return;
+                }
+            }
+        }
+        static void Rearrange(List<string> list, string item)
+        {
+            if (list.Contains(item))
+            {
+                list.Remove(item);
+                list.Add(item);
+            }
+            else
+            {
+                return;
+            }
+        }
+        static void Print(List<string> list)
+        {
+            Console.WriteLine(string.Join(", ", list));
+        }
+
     }
 }
