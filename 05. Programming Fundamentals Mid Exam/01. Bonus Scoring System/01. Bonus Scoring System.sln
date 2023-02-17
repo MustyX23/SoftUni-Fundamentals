@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Bonus Scoring System", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. MuOnline", "..\02. MuOnline\02. MuOnline.csproj", "{C41ED09B-2F40-42FF-9B12-8ED794A3EB7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Inventory", "..\03. Inventory\03. Inventory.csproj", "{4389BD06-020A-47CF-AD31-F66AE1B40206}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C41ED09B-2F40-42FF-9B12-8ED794A3EB7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C41ED09B-2F40-42FF-9B12-8ED794A3EB7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C41ED09B-2F40-42FF-9B12-8ED794A3EB7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4389BD06-020A-47CF-AD31-F66AE1B40206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4389BD06-020A-47CF-AD31-F66AE1B40206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4389BD06-020A-47CF-AD31-F66AE1B40206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4389BD06-020A-47CF-AD31-F66AE1B40206}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
