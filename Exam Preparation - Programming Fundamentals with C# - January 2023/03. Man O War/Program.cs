@@ -44,7 +44,7 @@ namespace _03._Man_O_War
                             else
                             {
                                 Console.WriteLine("You won! The enemy ship has sunken.");
-                                continue;
+                                return;
                             }
                         }
                     }
@@ -71,7 +71,7 @@ namespace _03._Man_O_War
                             else
                             {
                                 Console.WriteLine("You lost! The pirate ship has sunken.");
-                                continue;
+                                return;
                             }
                         }
                     }
