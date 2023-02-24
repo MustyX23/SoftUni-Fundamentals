@@ -16,9 +16,9 @@ namespace _03._Match_Dates
 
             foreach (Match item in matchCollection)
             {
-                var day = item.Groups["day"];
-                var month = item.Groups["month"];
-                var year = item.Groups["year"];
+                var day = item.Groups["day"].Value;
+                var month = item.Groups["month"].Value;
+                var year = item.Groups["year"].Value;
 
                 Console.WriteLine($"Day: {day}, Month: {month}, Year: {year}");
             }
