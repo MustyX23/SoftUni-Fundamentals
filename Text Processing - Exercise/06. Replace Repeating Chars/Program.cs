@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Text;
 
 namespace _06._Replace_Repeating_Chars
 {
@@ -9,11 +10,12 @@ namespace _06._Replace_Repeating_Chars
         {
             string input = Console.ReadLine();
 
-            int index = 1;
+            //abbbcdd
 
+            int index = 1;
             while (index != input.Length)
             {
-                if (input[index - 1] == input[index])
+                if (input[index] == input[index - 1])
                 {
                     input = input.Remove(index, 1);
                     index--;
