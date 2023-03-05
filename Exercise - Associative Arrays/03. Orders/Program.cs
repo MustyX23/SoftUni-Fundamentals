@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace _03._Orders
 {
@@ -8,31 +9,37 @@ namespace _03._Orders
         static void Main(string[] args)
         {
             Dictionary<string, List<double>> map = new Dictionary<string, List<double>>();
-
             string input;
 
-            while ((input = Console.ReadLine())!= "buy")
-            {
-                string[] products = input.Split(' ');
+            double totalPrice = 0;
 
-                string name = products[0];
-                double price = double.Parse(products[1]);
-                double quantity = double.Parse(products[2]);
+            while ((input = Console.ReadLine()) != "buy")
+            {
+                string[]commandArgs = input.Split(" ");
+
+                string name = commandArgs[0];
+                double price = double.Parse(commandArgs[1]);
+                int quantity = int.Parse(commandArgs[2]);
 
                 if (!map.ContainsKey(name))
                 {
-                    map.Add(name, new List<double>() {price, quantity});
+                    List<double>priceQuantity = new List<double>();
+                    priceQuantity.Add(price);
+                    priceQuantity.Add(quantity);
+                    map.Add(name, priceQuantity);
                 }
                 else
                 {
                     map[name][0] = price;
-                    map[name][1] += quantity;
+                    map[name][1] += quantity;                   
                 }
+               
             }
 
             foreach (var item in map)
             {
-                Console.WriteLine($"{item.Key} -> {(item.Value[0] * item.Value[1]):f2}");
+                totalPrice = item.Value[0] * item.Value[1];
+                Console.WriteLine($"{item.Key} -> {totalPrice:f2}");
             }
         }
     }
