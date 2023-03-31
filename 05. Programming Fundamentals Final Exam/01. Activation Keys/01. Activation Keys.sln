@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Activation Keys", "01. Activation Keys.csproj", "{B05C83E0-F8D9-455E-94B8-46929971A4EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Emoji Detector", "..\02. Emoji Detector\02. Emoji Detector.csproj", "{33FACBA8-9D8E-4297-82FA-AC951EB43231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. P!rates", "..\03. P!rates\03. P!rates.csproj", "{3EBD9BB4-984F-4B80-B078-D71F7AC4C9E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{B05C83E0-F8D9-455E-94B8-46929971A4EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B05C83E0-F8D9-455E-94B8-46929971A4EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B05C83E0-F8D9-455E-94B8-46929971A4EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FACBA8-9D8E-4297-82FA-AC951EB43231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FACBA8-9D8E-4297-82FA-AC951EB43231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FACBA8-9D8E-4297-82FA-AC951EB43231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FACBA8-9D8E-4297-82FA-AC951EB43231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EBD9BB4-984F-4B80-B078-D71F7AC4C9E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EBD9BB4-984F-4B80-B078-D71F7AC4C9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EBD9BB4-984F-4B80-B078-D71F7AC4C9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EBD9BB4-984F-4B80-B078-D71F7AC4C9E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
